@@ -1,0 +1,596 @@
+a{
+    color: inherit;
+}
+
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1em;
+}
+
+/*header starts here*/
+
+.header-top {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    background-color: #1d4e9e;
+}
+.header-top ul:hover{
+   color: gray;
+}
+/* navbar starts here*/
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #ffff;
+}
+
+.logo {
+    width: 120px;
+    height: 61px;
+    object-fit: contain;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333333;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,1);
+    font-weight: bold;
+}
+
+.bg-light {
+    background-color: #ffff !important;
+}
+
+.navbar {
+    padding: 20px 0;
+}
+
+/*carousel starts here*/
+
+.carousel-caption{
+    width: 463px;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: left;
+    color: #1d4e9e;
+    margin-left: 480px;
+    margin-bottom: 140px;  
+}
+.carousel-caption h2{
+    font-size: 24px;
+    line-height: 1.53;
+}
+.btn-callback{
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    width: 194px;
+    height: 49px;
+    background-color: #1d4e9e;
+    border-style: none;
+    margin-left:899px;
+    position: absolute;   
+}
+.material-icons{
+    vertical-align: middle;   
+}
+.btn-warning {
+    color: #000000;
+    width: 151px;
+    height: 36px;
+    background-color: #fcc707;
+    font-weight: 600;
+    border-radius: 0;
+    border-style: none;    
+}
+
+/* carousel indicator starts here*/
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 33.33%;
+    height: 60px;
+    margin-right: 0;
+    margin-left: 0;
+    text-indent: 0;
+    background-color: #56af00;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.carousel-indicators :last-child{
+    background-color: #5cbf00;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: -18px;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    list-style: none;
+}
+.carousel-indicators li.active{
+    background-color: #3e8000;
+}
+
+/* about us starts here*/
+
+.about h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 31.5px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 49px;
+    margin-left: 420px;
+}
+.about p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    line-height: 1.47;
+    text-align: center;
+    color: #333333;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.row2{
+    display: flex;
+}
+.btn-tooltip{
+    width: 207px;
+  height: 35px;
+  background-color: #56af00;
+  border-style: none;
+  font-size: 14px;
+  color: #ffffff;
+  position: relative;
+  margin-left: 80px;
+  margin-top: 49px;
+  padding-top: 7px;
+}
+.btn-tooltip::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #56af00;
+    transform:rotate(45deg);
+    top: 12px;
+    left: 202px;
+}
+.lady{
+    margin-left: 230px;
+    width: 73px;
+    height: 73px;
+    margin-top: -45px;
+    background-color: #ffffff;
+    
+}
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+    margin-top: 30px;
+}
+
+.btn-primary{
+    width: 127px;
+    height: 36px;
+    background-color: #1d4e9e;
+    border-radius: 0;
+    border-style: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    font-weight: 600; 
+}
+
+.btn-success{
+    width: 24px;
+    height: 36px;
+    background-color: #56af00;
+    border-radius: 0;
+    border-style: none;
+}
+.material-icons{
+    margin-left: -11px;
+}
+.container-fluid {
+    width: 100%; 
+   padding-right: 0;
+   padding-left: 0;
+   flex-direction: column;
+}
+/*jeevan raksha starts here*/
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+}
+.jeevan_raksha{
+    margin-top: 50px;
+}
+.col-a{
+    width: 50%;
+    order: 1;
+
+}
+.col-b{
+    padding-left: 30px;
+    width: 50%;
+    order: 2;
+   
+}
+.col-b h4{
+    margin-top: 118px;
+    font-size: 31.5px;
+    font-weight: bold;
+    text-align: left;
+    color: #333333;
+}
+.col-b p{
+    width: 349px;
+    height: 60px;
+    font-size: 16px;
+    text-align: left;
+    color: #333333;
+}
+.btn-jeevan{
+    width: 151px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #1d4e9e;
+    color: #ffffff;
+    border-style: none;
+}
+/*pension_plans starts here*/
+
+.col-c h4{
+    font-size: 31.5px;
+    font-weight: bold;
+    color: #333333;
+    margin-left: 160px;
+}
+.col-c p{
+    width: 349px;
+    height: 60px;
+    font-size: 16px;
+    text-align: right;
+    color: #333333;
+}
+.col-c{
+   margin-top: 100px;
+   padding-left: 250px;
+   width: 50%;
+
+}
+.col-d{
+    margin-left: 0;
+    width: 50%;
+}
+.btn-pension{
+    width: 151px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #1d4e9e;
+    color: #ffffff;
+    border-style: none;
+    margin-left: 197px;
+}
+
+/* childrens money back policy starts here*/
+
+.col-e{
+    width: 50%;
+    
+}
+.col-f{
+    width: 50%;
+    padding-left: 30px;
+    
+}
+.col-f h4{
+    font-size: 31.5px;
+    font-weight: bold;
+    color: #333333;
+    text-align: left;
+    margin-top: 118px;
+}
+.col-f p{
+    width: 349px;
+    height: 60px;
+    font-size: 16px;
+    text-align: left;
+    color: #333333;
+}
+.btn-money{
+    width: 151px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #1d4e9e;
+    color: #ffffff;
+    border-style: none;
+}
+/* btn policy starts here */
+
+.btn-all_policies{
+    color: #000000;
+    font-size: 14px;
+    width: 177px;
+    height: 36px;
+    background-color: #fcc707;
+    font-weight: 600;
+    border-style: none;
+    align-content: center;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+/* top-footer starts here*/
+
+.top-footer{
+    height: 50px;
+    background-color: #fcc707;
+    margin-top: 106px;
+}
+.top-footer p{
+    padding-top: 15px;
+    font-size: 12px;
+    color: #333333;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* footer-bottom starts here */
+.row1{
+    display: flex;
+}
+
+h6{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    text-align: left;
+}
+.list{
+    list-style: none;
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: -40px;
+}
+.page-footer{
+  height: 480px;
+  background-color: #1d4e9e;
+ 
+}
+/* media query for mobile*/
+
+@media(min-width: 320px) and (max-width: 767px){
+    .container{
+        width: 100%;
+    }
+    .header-top{
+        width: 100%; 
+    }
+    .carousel{
+        width: 100%;
+    }
+    .carousel-indicators{
+        margin-bottom: -28px;
+    }
+    .row{
+        width: 100%;
+        display: block;
+    }
+    .responsive{
+        width: 100%!important;
+        height: auto;
+    }
+    
+    .col-a{
+        width: 100%;
+        margin-top: 200px;
+    }
+    .col-b{
+        margin-top: -490px;
+        margin-left: -23px;
+        width: 100%;
+       
+    }
+    .col-c{
+        width: 100%;
+        margin-top: 200px;
+        margin-left: -243px;
+        text-align: left;
+    }
+    .col-c h4{
+        width: 330px;
+        margin-left: 1px;
+    }
+    .col-c p{
+        text-align: left;
+    }
+    .col-d{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .btn-pension{
+        margin-left: 0;
+    }
+    .col-e{
+       width: 100%;
+       margin-top: 185px;
+    }
+    .col-f{
+        width: 100%;
+        margin-top: -488px;
+        margin-left: -23px;
+    }
+    .about h2{
+        margin-left: 45px;
+        margin-top: 70px;
+    }
+    .about p{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .btn-tooltip, .lady{
+        display: none;
+    }
+    
+    .btn-all_policies{
+        margin-top: 260px;
+        margin-left: 85px;
+        
+    }
+    .top-footer{
+        width: 100%;
+        text-align: center;
+    }
+    .page-footer{
+        width: 100%;
+    }
+   .row1{
+       display:block;
+   } 
+    .page-footer{
+        width: 100%;
+        height: 770px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    h6{
+        padding-top: 10px;
+    }
+    .mt-5, .my-5 {
+    margin-top: 0!important;
+    }
+    .mb-4, .my-4 {
+        margin-bottom: 0.5rem!important;
+    }
+    .col-lg-3, .col-xl-3{
+        margin-bottom: -20px;
+    }
+}
+
+/* media query for mobile landscape*/
+@media(min-width: 320px) and (max-width: 767px)  and (orientation: landscape){
+
+    .carousel-caption{
+        display: none;
+        
+    }
+    .about h2{
+        margin-left: 130px;
+    }
+    .col-b{
+        margin-top: -645px;
+    }
+    .col-c{
+        margin-top: 365px;
+    }
+    .col-f{
+        margin-top: -645px;
+    }
+    .btn-all_policies{
+        margin-top: 400px;
+        margin-left: 230px;
+    }
+}
+
+/* media query for tab(portrait tab) */
+
+@media(min-width: 768px) and (max-width: 992px){
+    .carousel-caption{
+        margin-left: 288px;
+        margin-bottom: 57px;
+        
+    }
+    .carousel-caption h2{
+        font-size: 20px;
+    }
+    .about h2{
+        margin-left: 235px;
+    }
+    .btn-tooltip{
+        display: none;
+    }
+    .col-b{
+        margin-top: -95px;
+        margin-left: -15px;
+    }
+    .col-c{
+        margin-top: 25px;
+        margin-left: -180px;
+        padding-left: 198px;
+        text-align: right;
+    }
+    .col-c h4{
+        width: 354px;
+        margin-left: -3px;
+    }
+    .col-d{
+        margin-left: 180px;
+    }
+    .col-f{
+        margin-top: -85px;
+        margin-left: -13px;
+    }
+    .btn-all_policies{
+        margin-left: 290px;
+        margin-top: 90px;
+    }
+}
+ /* media query for tab(landscape tab) */
+ 
+ @media(min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+    .carousel-caption{
+        margin-left: 375px;
+        margin-bottom: 97px;
+    }
+    .btn-callback{
+        margin-left: 720px;
+    }
+    .about h2{
+        margin-left: 320px;
+    }
+    .col-b{
+        margin-top: -60px;
+    }
+    .col-c{
+        margin-left: -110px;
+        margin-top: 66px;
+        width: 100%;
+    }
+    .col-d{
+        margin-left: 512px;
+        margin-top: -233px;
+    }
+    .col-f{
+        margin-top: -45px;
+    }
+    .btn-all_policies{
+        margin-left: 460px;
+        margin-top: 100px;
+    }
+ }
+
+
